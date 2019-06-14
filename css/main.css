@@ -48,7 +48,11 @@ header section ul {
 }
 
 header section ul li {
-    margin: 0 1em;
+    margin: 0 .5em;
+}
+
+header section ul li a img {
+    width: 100%;
 }
 
 aside {
