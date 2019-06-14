@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 1000px) {
+#wrapper {
+	width: 98%;
+	}
+	.socbutton {
+	float: none;
+	position: relative;
+	}
+	#topsocmed {
+	height: auto;
+	width: 100%;
+	text-align:center;
+	}
+.socbutton {
+	float: none;
+	display:inline-block;
+	}
+#leftside {
+	float: none;
+	width: 50%;
+	margin-right: auto;
+	margin-left:auto;
+	position: relative;
+}
+.loginbutton {
+	width: 200px;
+	margin-right: 10px;
+	margin-left: 10 px;
+	margin-bottom: 10 px;
+	position: relative;
+}
+
+#rightside {
+	float: none;
+	height: auto;
+	width: 98%;
+	margin-left:auto;
+	margin-right:auto;
+}
+}
+@media only screen and (max-width: 700px) {
+#wrapper {
+	width: 98%;
+	}
+#logo img {
+	width: 100%;
+	object-fit: contain;
+	}
+	#leftside {
+	float: left;
+	width: 100%;
+	margin-right: 0px;
+	position: relative;
+}
+#rightside {
+	float: none;
+	height: auto;
+	width: 98%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.loginbutton {
+	width: 200px;
+	margin-right: 10px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.menubutton {
+	float: none;
+}
+
+}
+@media only screen and (max-width: 200px) {
+#wrapper {
+	width: 98%;
+	}
+#logo img {
+	width: 100%;
+	object-fit: contain;
+	}
+	
+#leftside {
+	float: left;
+	width: 100%;
+	margin-right: 0px;
+	position: relative;
+}
+#rightside {
+	float: left;
+	height: auto;
+	width: 96%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.loginbutton {
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+.menubutton {
+	float: none;
+}
+}

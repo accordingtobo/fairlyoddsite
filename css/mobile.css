@@ -1,0 +1,35 @@
+@charset "utf-8";
+@media only screen and (max-width: 1000px) {
+#wrapper {
+	width: 98%;
+}
+#menubar {
+	float: none;
+	width: 100%;
+	margin-right: 0px;
+	position: relative;
+}
+#menu {
+	float: none;
+}
+.socmed{
+	visibility:hidden;
+	}
+.twitter-timeline {
+	visibility:hidden;
+	}
+.rightbuttons {
+	float: none;
+	position: relative;
+	
+}
+}
+@media only screen and (max-width: 600px) {
+#top img {
+	width: 100%;
+	height: auto;
+	}
+}
+@media only screen and (max-width: 150px) {
+
+}

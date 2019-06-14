@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-image: url(../img/ep_naturalblack.png);
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: fixed;
+	background-position: center;
+	display: inline;
+}
+body {
+	background-attachment: fixed;
+	background-image: url(../img/fairly%20bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	float: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	display: inline-table;
+}
+#wrapper {
+	width: 1000px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	height: auto;
+}
+#header {
+	height: auto;
+	width: 100%;
+}
+#logo {
+	height: auto;
+	width: 100%;
+	float: none;
+	position: relative;
+	text-align: center;
+}
+#page {
+	height: auto;
+	width: 100%;
+	margin-top: 10px;
+}
+#logo img {
+	height: 156px;
+	width: 644px;
+}
+.socbutton img {
+	height: 50px;
+	width: 49px;
+}
+
+#topsocmed {
+	height: auto;
+	width: 100%;
+	overflow:hidden;
+}
+.socbutton {
+	position: relative;
+	float:right;
+}
+#leftside {
+	float: left;
+	width: 200px;
+	margin-right: 25px;
+	position: relative;
+}
+#rightside {
+	height: auto;
+	width: 775px;
+	float: left;
+	position: relative;
+}
+
+.loginbutton {
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	border-radius: 0px 50px 0px 50px;
+	color: #FFF;
+	background-color: #322067;
+	border-top-color: #521B7B;
+	border-right-color: #521B7B;
+	border-bottom-color: #521B7B;
+	border-left-color: #521B7B;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	height: 30px;
+}
+
+#twitch {
+	float: left;
+	width: 100%;
+	position: relative;
+	object-fit: contain;
+}
+#copyright {
+	text-align: center;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+menu{
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+	width:100%;
+	height:auto;
+	}
+.menubutton {
+	background-color: #000;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #35367C;
+	border-right-color: #35367C;
+	border-bottom-color: #35367C;
+	border-left-color: #35367C;
+	float: left;
+	margin-bottom: 5px;
+	position: relative;
+	height: 20px;
+	width: 100%;
+	color: #9090DF;
+	border-radius: 25px;
+	display: inline;
+}
+.text {
+	border-radius: 25px;
+	color: #FFF;
+	width: 96%;
+	background-color: rgba(0,0,0,0.3);
+	padding: 2%;
+}
