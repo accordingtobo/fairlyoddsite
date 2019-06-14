@@ -11,6 +11,7 @@ html {
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
+
 }
 
 body {
@@ -76,11 +77,15 @@ footer {
 }
 
 @media (min-width: 1201px) {
+    html {
+        background-image:url(../img/fairly%20bg.png), url(../img/ep_naturalblack.png);
+        background-repeat: no-repeat, repeat;
+        background-attachment: unset, fixed;
+        background-position: center, center;
+        background-size: 1500px, auto;
+    }
     body {
-        background-image: url(../img/fairly%20bg.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
+        z-index: 1;
         grid-column-gap: 2rem;
         grid-template-rows: auto 1fr auto;
         grid-template-areas:
